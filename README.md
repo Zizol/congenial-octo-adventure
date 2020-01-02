@@ -66,3 +66,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+Bonjour
+
+Voici un petit projet pour me mettre en jambe et faire des trucs funky en informatique et showcase visuellement mes idees.
+
+Celui la affiche un pokedex.
+
+Workflow
+
+Create react app : c'est fait
+Creer l'element qui contient l'appli en soi
+Creer la fonction d'affichage d'une image et nom de pokemon dans une liste
+Creer l'element bloc affichant un pokemon
+Creer la fonction de recherche d'un pokemon dans la liste
+# congenial-octo-adventure
