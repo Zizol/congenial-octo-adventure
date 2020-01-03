@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/congenial-octo-adventure/static/css/main.eb82a97a.chunk.css",
+    "main.js": "/congenial-octo-adventure/static/js/main.993572e3.chunk.js",
+    "main.js.map": "/congenial-octo-adventure/static/js/main.993572e3.chunk.js.map",
+    "runtime-main.js": "/congenial-octo-adventure/static/js/runtime-main.637fae54.js",
+    "runtime-main.js.map": "/congenial-octo-adventure/static/js/runtime-main.637fae54.js.map",
+    "static/js/2.32c47b13.chunk.js": "/congenial-octo-adventure/static/js/2.32c47b13.chunk.js",
+    "static/js/2.32c47b13.chunk.js.map": "/congenial-octo-adventure/static/js/2.32c47b13.chunk.js.map",
+    "index.html": "/congenial-octo-adventure/index.html",
+    "precache-manifest.c23bb29f3ec0eb95a258684ae7766aef.js": "/congenial-octo-adventure/precache-manifest.c23bb29f3ec0eb95a258684ae7766aef.js",
+    "service-worker.js": "/congenial-octo-adventure/service-worker.js",
+    "static/css/main.eb82a97a.chunk.css.map": "/congenial-octo-adventure/static/css/main.eb82a97a.chunk.css.map",
+    "static/js/2.32c47b13.chunk.js.LICENSE": "/congenial-octo-adventure/static/js/2.32c47b13.chunk.js.LICENSE",
+    "static/media/logo.svg": "/congenial-octo-adventure/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.637fae54.js",
+    "static/js/2.32c47b13.chunk.js",
+    "static/css/main.eb82a97a.chunk.css",
+    "static/js/main.993572e3.chunk.js"
+  ]
+}
