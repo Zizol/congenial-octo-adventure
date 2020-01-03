@@ -11,7 +11,9 @@ class App extends Component {
   // l'etat contient les ids des pokemons
   state = {
     pokemonsIds: [1],
-    collection: {1: {name: "Bulbizarre", id: 1}}
+    collection: {1: {name: "Bulbizarre", id: 1}},
+    count: 0,
+    entree: ''
   }
 
   // à la montée du composant, on fetch les données de pokemon depuis une api
@@ -24,7 +26,7 @@ class App extends Component {
       })
     })*/
 
-    fetch("https://pokeapi.co/api/v2/pokemon/?limit=20")
+    fetch("https://pokeapi.co/api/v2/pokemon/?limit=964")
       .then(res => res.json())
       .then(
         (result) => {
@@ -36,9 +38,21 @@ class App extends Component {
       )
   }
 
+  handleChange = event => {
+    var array = new Array();
+    for (var i = 0; i <= event.target.value.length; i++) {
+      array[i] = i;
+    }
+    this.setState({
+      count: event.target.value.length,
+      entree: event.target.value,
+      pokemonsIds: array
+    });
+  }
+
+
   // La fonction qui affiche ce qu'il faut
   render() {
-    console.log(this.state)
 
     // les ids et la collection sont stockées
     const {pokemonsIds, collection} = this.state
@@ -59,6 +73,8 @@ class App extends Component {
     // On affiche l'element liste pokemons
     return(
       <div classname="page">
+        <textarea placeholder="write" onChange={this.handleChange}></textarea>
+        <p> Bonjour {this.state.entree}, il y a {this.state.count} lettres</p>
         <ul classname="pokemons">{pokemons}</ul>
       </div>
     )
